@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "WordApp.Resources/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Localization.Abstractions": "2.2.0",
+          "WordApp.CommonInterface": "1.0.0"
+        },
+        "runtime": {
+          "WordApp.Resources.dll": {}
+        },
+        "resources": {
+          "es-es/WordApp.Resources.resources.dll": {
+            "locale": "es-es"
+          },
+          "sr-Latn-RS/WordApp.Resources.resources.dll": {
+            "locale": "sr-Latn-RS"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "WordApp.CommonInterface/1.0.0": {
+        "runtime": {
+          "WordApp.CommonInterface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WordApp.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Localization.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FQzXG/lYR9UOM2zHpqsjTRpp3EghIYo3FCsQpfmtbp+glPaU0WXZfNmMjyqBRmMj1Sq93fPnC+G9zzYRauuRQA==",
+      "path": "microsoft.extensions.localization.abstractions/2.2.0",
+      "hashPath": "microsoft.extensions.localization.abstractions.2.2.0.nupkg.sha512"
+    },
+    "WordApp.CommonInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

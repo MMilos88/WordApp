@@ -1,0 +1,523 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessLogic\\WordApp.BusinessLogic.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessInterface\\WordApp.BusinessInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessInterface\\WordApp.BusinessInterface.csproj",
+        "projectName": "WordApp.BusinessInterface",
+        "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessInterface\\WordApp.BusinessInterface.csproj",
+        "packagesPath": "C:\\Users\\Dragon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dragon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessModel\\WordApp.BusinessModel.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessModel\\WordApp.BusinessModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessLogic\\WordApp.BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessLogic\\WordApp.BusinessLogic.csproj",
+        "projectName": "WordApp.BusinessLogic",
+        "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessLogic\\WordApp.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Dragon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dragon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessInterface\\WordApp.BusinessInterface.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessInterface\\WordApp.BusinessInterface.csproj"
+              },
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.CommonInterface\\WordApp.CommonInterface.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.CommonInterface\\WordApp.CommonInterface.csproj"
+              },
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.Mapper\\WordApp.Mapper.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.Mapper\\WordApp.Mapper.csproj"
+              },
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.RepositoryInterface\\WordApp.RepositoryInterface.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.RepositoryInterface\\WordApp.RepositoryInterface.csproj"
+              },
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.ServiceInterface\\WordApp.ServiceInterface.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.ServiceInterface\\WordApp.ServiceInterface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessModel\\WordApp.BusinessModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessModel\\WordApp.BusinessModel.csproj",
+        "projectName": "WordApp.BusinessModel",
+        "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessModel\\WordApp.BusinessModel.csproj",
+        "packagesPath": "C:\\Users\\Dragon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dragon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.5.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.CommonInterface\\WordApp.CommonInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.CommonInterface\\WordApp.CommonInterface.csproj",
+        "projectName": "WordApp.CommonInterface",
+        "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.CommonInterface\\WordApp.CommonInterface.csproj",
+        "packagesPath": "C:\\Users\\Dragon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.CommonInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dragon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\WordApp.DataModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\WordApp.DataModel.csproj",
+        "projectName": "WordApp.DataModel",
+        "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\WordApp.DataModel.csproj",
+        "packagesPath": "C:\\Users\\Dragon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dragon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.Mapper\\WordApp.Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.Mapper\\WordApp.Mapper.csproj",
+        "projectName": "WordApp.Mapper",
+        "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.Mapper\\WordApp.Mapper.csproj",
+        "packagesPath": "C:\\Users\\Dragon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.Mapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dragon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessModel\\WordApp.BusinessModel.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.BusinessModel\\WordApp.BusinessModel.csproj"
+              },
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\WordApp.DataModel.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\WordApp.DataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.RepositoryInterface\\WordApp.RepositoryInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.RepositoryInterface\\WordApp.RepositoryInterface.csproj",
+        "projectName": "WordApp.RepositoryInterface",
+        "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.RepositoryInterface\\WordApp.RepositoryInterface.csproj",
+        "packagesPath": "C:\\Users\\Dragon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.RepositoryInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dragon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\WordApp.DataModel.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\WordApp.DataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.ServiceInterface\\WordApp.ServiceInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.ServiceInterface\\WordApp.ServiceInterface.csproj",
+        "projectName": "WordApp.ServiceInterface",
+        "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.ServiceInterface\\WordApp.ServiceInterface.csproj",
+        "packagesPath": "C:\\Users\\Dragon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.ServiceInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Dragon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\WordApp.DataModel.csproj": {
+                "projectPath": "C:\\Users\\Dragon\\source\\repos\\WordApp\\WordApp.DataModel\\WordApp.DataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+C:\Users\Dragon\source\repos\WC\WordCunt\WordApp.CommonInterface\bin\Debug\netcoreapp2.1\WordApp.CommonInterface.deps.json
+C:\Users\Dragon\source\repos\WC\WordCunt\WordApp.CommonInterface\bin\Debug\netcoreapp2.1\WordApp.CommonInterface.dll
+C:\Users\Dragon\source\repos\WC\WordCunt\WordApp.CommonInterface\bin\Debug\netcoreapp2.1\WordApp.CommonInterface.pdb
+C:\Users\Dragon\source\repos\WC\WordCunt\WordApp.CommonInterface\obj\Debug\netcoreapp2.1\WordApp.CommonInterface.csprojAssemblyReference.cache
+C:\Users\Dragon\source\repos\WC\WordCunt\WordApp.CommonInterface\obj\Debug\netcoreapp2.1\WordApp.CommonInterface.csproj.CoreCompileInputs.cache
+C:\Users\Dragon\source\repos\WC\WordCunt\WordApp.CommonInterface\obj\Debug\netcoreapp2.1\WordApp.CommonInterface.AssemblyInfoInputs.cache
+C:\Users\Dragon\source\repos\WC\WordCunt\WordApp.CommonInterface\obj\Debug\netcoreapp2.1\WordApp.CommonInterface.AssemblyInfo.cs
+C:\Users\Dragon\source\repos\WC\WordCunt\WordApp.CommonInterface\obj\Debug\netcoreapp2.1\WordApp.CommonInterface.dll
+C:\Users\Dragon\source\repos\WC\WordCunt\WordApp.CommonInterface\obj\Debug\netcoreapp2.1\WordApp.CommonInterface.pdb

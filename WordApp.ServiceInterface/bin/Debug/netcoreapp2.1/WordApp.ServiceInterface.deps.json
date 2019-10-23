@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "WordApp.ServiceInterface/1.0.0": {
+        "dependencies": {
+          "WordApp.DataModel": "1.0.0"
+        },
+        "runtime": {
+          "WordApp.ServiceInterface.dll": {}
+        }
+      },
+      "WordApp.DataModel/1.0.0": {
+        "runtime": {
+          "WordApp.DataModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WordApp.ServiceInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WordApp.DataModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
